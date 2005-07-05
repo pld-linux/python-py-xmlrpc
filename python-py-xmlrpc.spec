@@ -9,7 +9,8 @@ Source0:	http://dl.sourceforge.net/py-xmlrpc/py-xmlrpc-%{version}.tar.gz
 # Source0-md5:	d2aa74615aa9cf23413975a68613ffc1
 URL:		http://sourceforge.net/projects/py-xmlrpc
 BuildRequires:	python
-Requires:	python
+BuildRequires:	python-modules
+%pyrequires_eq	python-libs
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
