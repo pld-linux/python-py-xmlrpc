@@ -31,6 +31,8 @@ python setup.py install \
 	--root=$RPM_BUILD_ROOT \
 	--optimize=2
 
+find $RPM_BUILD_ROOT%{py_sitedir} -name \*.py -exec rm {} \;
+
 cp -a examples $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
@@ -39,6 +41,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CHANGELOG README TODO
-%{py_sitedir}/*.py?
+%{py_sitedir}/*.py[co]
 %attr(755,root,root) %{py_sitedir}/*.so
 %{_examplesdir}/%{name}-%{version}
