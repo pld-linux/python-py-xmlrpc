@@ -1,5 +1,5 @@
 Summary:	XMLRPC Python Library
-Summary(pl):	Biblioteka XMLRPC dla Pythona
+Summary(pl.UTF-8):   Biblioteka XMLRPC dla Pythona
 Name:		python-py-xmlrpc
 Version:	0.8.8.3
 Release:	1
@@ -19,9 +19,9 @@ An extremely fast implementation of the XMLRPC spec for Python
 and servers on Windows and POSIX platforms. Version 0.8.1 is 100%
 compliant with the www.xmlrpc.com validator.
 
-%description -l pl
+%description -l pl.UTF-8
 Bardzo szybka implementacja specyfikacji XMLRPC dla Pythona (napisana
-w C). Wspiera zarówno blokuj±cych jak i nieblokuj±cych klientów i
+w C). Wspiera zarÃ³wno blokujÄ…cych jak i nieblokujÄ…cych klientÃ³w i
 serwery na platformach Windows i POSIX. Wersja 0.8.1 jest w 100%
 zgodna z walidatorem www.xmlrpc.com .
 
