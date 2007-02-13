@@ -1,5 +1,5 @@
 Summary:	XMLRPC Python Library
-Summary(pl.UTF-8):   Biblioteka XMLRPC dla Pythona
+Summary(pl.UTF-8):	Biblioteka XMLRPC dla Pythona
 Name:		python-py-xmlrpc
 Version:	0.8.8.3
 Release:	1
