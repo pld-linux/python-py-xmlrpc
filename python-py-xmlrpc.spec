@@ -32,9 +32,7 @@ zgodna z walidatorem www.xmlrpc.com .
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
-python setup.py install \
-	--root=$RPM_BUILD_ROOT \
-	--optimize=2
+%py_install
 
 find $RPM_BUILD_ROOT%{py_sitedir} -name \*.py -exec rm {} \;
 
