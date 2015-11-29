@@ -8,6 +8,7 @@ Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/py-xmlrpc/py-xmlrpc-%{version}.tar.gz
 # Source0-md5:	d2aa74615aa9cf23413975a68613ffc1
 URL:		http://sourceforge.net/projects/py-xmlrpc/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python
 BuildRequires:	python-modules
 %pyrequires_eq	python-libs
